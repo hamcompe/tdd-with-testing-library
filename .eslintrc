@@ -1,4 +1,7 @@
 {
   "extends": ["hamcompe"],
-  "rules": {}
+  "plugins": ["prettier"],
+  "rules": {
+    "no-confusing-arrow": "off"
+  }
 }
